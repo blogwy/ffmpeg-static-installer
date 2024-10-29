@@ -1,6 +1,6 @@
 {
   "name": "ffmpeg-static-installer",
-  "version": "5.0.1",
+  "version": "6.0.0",
   "description": "ffmpeg static binaries for Mac OSX and Linux and Windows",
   "main": "index.js",
   "files": [
@@ -17,8 +17,8 @@
     "prepublishOnly": "npm run lint && npm run install && npm test"
   },
   "ffmpeg-static-installer": {
-    "binary-release-tag": "5.0.1",
-    "binary-release-name": "5.0.1"
+    "binary-release-tag": "6.0.0",
+    "binary-release-name": "6.0.0"
   },
   "repository": {
     "type": "git",
