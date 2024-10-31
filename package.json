@@ -17,8 +17,8 @@
     "prepublishOnly": "npm run lint && npm run install && npm test"
   },
   "ffmpeg-static-installer": {
-    "binary-release-tag": "6.0.0",
-    "binary-release-name": "6.0.0"
+    "binary-release-tag": "7.1.0",
+    "binary-release-name": "7.1.0"
   },
   "repository": {
     "type": "git",
