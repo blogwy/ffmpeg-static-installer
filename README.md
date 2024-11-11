@@ -4,8 +4,6 @@
 
 Supports macOS (64-bit and arm64), Linux (32 and 64-bit, armhf, arm64), Windows (32 and 64-bit).
 
-**This project is a fork of [ffmpeg-static](https://github.com/eugeneware/ffmpeg-static)**
-
 ## Installation
 
 This module is installed via npm:
@@ -48,9 +46,4 @@ Check the [example script](example.js) for a more thorough example.
 * macOS (arm64): https://formulae.brew.sh/formula/ffmpeg
 * Windows 32-bit: https://github.com/sudo-nautilus/FFmpeg-Builds-Win32/
 * Windows 64-bit: https://www.gyan.dev/ffmpeg/builds/
-
-## Thanks
-
-- [ffmpeg-static](https://github.com/eugeneware/ffmpeg-static)
-- [node-ffmpeg-installer](https://github.com/SavageCore/node-ffmpeg-installer)
 

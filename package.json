@@ -36,7 +36,7 @@
   ],
   "authors": [],
   "contributors": [],
-  "license": "GPL-3.0 license",
+  "license": "MIT License",
   "bugs": {
     "url": "https://github.com/blogwy/ffmpeg-static-installer/issues"
   },

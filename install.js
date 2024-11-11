@@ -168,17 +168,9 @@ const downloadsUrl = (
 )
 const baseUrl = `${downloadsUrl}/${release}`
 const downloadUrl = `${baseUrl}/${platform}-${arch}.gz`
-const readmeUrl = `${baseUrl}/${platform}-${arch}.README`
-const licenseUrl = `${baseUrl}/${platform}-${arch}.LICENSE`
 
 downloadFile(downloadUrl, ffmpegPath, onProgress)
 .then(() => {
   fs.chmodSync(ffmpegPath, 0o755) // make executable
 })
 .catch(exitOnError)
-
-.then(() => downloadFile(readmeUrl, `${ffmpegPath}.README`))
-.catch(exitOnErrorOrWarnWith('Failed to download the ffmpeg README.'))
-
-.then(() => downloadFile(licenseUrl, `${ffmpegPath}.LICENSE`))
-.catch(exitOnErrorOrWarnWith('Failed to download the ffmpeg LICENSE.'))
